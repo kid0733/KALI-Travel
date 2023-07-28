@@ -144,6 +144,68 @@ ul li a:hover{
 .adv-info{
     margin-top: 50px;
 }
-.adv-hero-head{
-    
+/*Cards*/
+.cards{
+    margin: 100px 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+    border-radius: 15px;
+    width: 350px;
+    height: 650px;
+    background-color: rgb(52, 51, 51);
+    padding: 10px;border-bottom: 10px solid rgba(172, 255, 47, 0.365);
+}
+.hiking{
+    padding-top: 65px;
+}
+
+.hiking-head{
+    padding-top: 25px;
+}
+.sight-img{
+    padding-top: 70px;
+}
+.sight-head{
+    padding-top:22px ;
+}
+.small{
+    color: red;
+    font-size: 18px;
+}
+.card h1{
+    color: aliceblue;
+}
+.card img{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-text{
+    color: aliceblue;
+}
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 30px;
+}
+.card-btn a{
+    text-decoration: none;
+    background: yellowgreen;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+.card-text{
+    max-width: 300px;
+}
+.card-btn{
+    margin: 15px;
 }
