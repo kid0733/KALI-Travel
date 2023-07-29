@@ -133,8 +133,13 @@ ul li a:hover{
 .white{
     color:aliceblue;
 }
-.green{
+.card-sub-head h1{
     color: greenyellow;
+}
+.green-head{
+    color: greenyellow;
+    font-size: 30px;
+    transition: all 0.5s ease;
 }
 .right{
     padding-left: 50px;
@@ -160,6 +165,7 @@ ul li a:hover{
     height: 650px;
     background-color: rgb(52, 51, 51);
     padding: 10px;border-bottom: 10px solid rgba(172, 255, 47, 0.365);
+    transition: all 0.5s ease;
 }
 .hiking{
     padding-top: 65px;
@@ -178,9 +184,7 @@ ul li a:hover{
     color: red;
     font-size: 18px;
 }
-.card h1{
-    color: aliceblue;
-}
+
 .card img{
     width: 300px;
     margin-left: auto;
@@ -197,16 +201,35 @@ ul li a:hover{
     text-align: center;
     gap: 30px;
 }
+
 .card-btn a{
     text-decoration: none;
     background: yellowgreen;
     color: white;
     padding: 15px;
     border-radius: 25px;
+    transition: all 0.5s ease;
 }
 .card-text{
     max-width: 300px;
 }
 .card-btn{
     margin: 15px;
+}
+/*Adv hover*/
+.card:hover{
+    height:675px;
+    width: 400px;
+}
+.card-btn a:hover{
+    margin-top: 10px;
+    transition: a 0.5s ease;
+    padding: 20px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    background-color: rgb(169, 204, 98);
+}
+.adventure:hover{
+    color: rgb(231, 191, 47);
+    transition: all 0.5s ease;
 }
