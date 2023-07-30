@@ -71,8 +71,6 @@ ul li a:hover{
 }
 
 .nav-elements ul{
-    
-    border-radius: 25px;
     display: flex;
     font-size: 22px;
     font-family: Anton ;
@@ -132,6 +130,9 @@ ul li a:hover{
 }
 .white{
     color:aliceblue;
+}
+.adv-nav-ul{
+    border-bottom: 1px solid yellowgreen;
 }
 .card-sub-head h1{
     color: greenyellow;
@@ -232,4 +233,105 @@ ul li a:hover{
 .adventure:hover{
     color: rgb(231, 191, 47);
     transition: all 0.5s ease;
+    font-size: 35px;
+}
+
+/*locations*/
+.blue-head{
+    color: aquamarine;
+    font-size: 30px;
+    transition: all 0.5s ease;
+}
+.blue-head:hover{
+    background: linear-gradient(to bottom, aliceblue, rgb(20, 187, 190));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      font-size: 32px;
+      transition: all 0.5s ease;
+}
+.location-flex-container{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.rhs-location{
+    color: rgb(184, 186, 187);
+    flex: 1;
+    background-color: rgb(31, 31, 32);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0 10px 2px rgba(127, 255, 212, 0.475); 
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+}
+.rhs-location:hover{
+    box-shadow: 0 0 20px 6px rgba(127, 255, 212, 0.754);
+}
+.location-rhs-head h1{
+    color: rgba(127, 255, 212, 0.667);
+}
+.location-rhs-text{
+    font-size: 1.1em;
+    font-weight: 100;
+    margin: 20px 0;
+}
+.lhs-location{
+    flex: 1;
+}
+.lhs-location img{
+    width: 100%;
+    border-radius: 10px;
+}
+.location-rhs-btn{
+    padding: 20px 0;
+}
+.location-rhs-btn a{
+    
+    text-decoration: none;
+    color: white;
+    background: rgba(127, 255, 212, 0.475);
+    padding: 12px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+.location-rhs-btn a:hover{
+    background: rgba(127, 255, 212, 0.753);
+    padding: 15px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+.contact-bg-container{
+    margin-top: 100px;
+    background-color: rgba(128, 128, 128, 0.319);
+}
+.contact-container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact-container h1{
+    color: rgba(127, 255, 212, 0.754);
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-flex{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    transition: all 0.3s ease;
+}
+.footer{
+    color: rgba(128, 128, 128, 0.428);
+    font-family: 'Montserrat', sans-serif;
+}
+.loc-nav-ul{
+    border-bottom: 1px solid rgba(127, 255, 212, 0.753);
 }
