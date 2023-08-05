@@ -27,7 +27,7 @@ li{
 .container-hero-bg{
     padding-top: 0px;
     height: 100vh;
-    background: url(assets/images/Hero-bg.png) no-repeat;
+    background: url(assets/images/Hero-bg.webp) no-repeat;
     background-size: cover;
     background-position: center;
     
