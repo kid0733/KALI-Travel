@@ -56,19 +56,13 @@ ul li a{
     transition: color 0.3s ease;
 }
 
-ul li a:hover{
-    color: rgb(231, 191, 47);
-}
+
 .big-header{
     color: aliceblue;
     font-size: 75px;
     font-family: Anton;    
 }
-.big-header:hover{
-    color: rgb(144, 117, 19);
-    transition: color 0.5s ease;
 
-}
 
 .nav-elements ul{
     display: flex;
@@ -113,10 +107,7 @@ ul li a:hover{
     transition: color 0.5s ease;
     transition: background-color 0.5s ease;
 }
-.hero-info-btn a:hover{
-    background-color: aliceblue;
-    color: #000;
-}
+
 .hero-info-btn img{
     height: 20px;
     width: auto;
@@ -217,24 +208,7 @@ ul li a:hover{
 .card-btn{
     margin: 15px;
 }
-/*Adv hover*/
-.card:hover{
-    height:675px;
-    width: 400px;
-}
-.card-btn a:hover{
-    margin-top: 10px;
-    transition: a 0.5s ease;
-    padding: 20px;
-    font-size: 20px;
-    transition: all 0.5s ease;
-    background-color: rgb(169, 204, 98);
-}
-.adventure:hover{
-    color: rgb(231, 191, 47);
-    transition: all 0.5s ease;
-    font-size: 35px;
-}
+
 
 /*locations*/
 .blue-head{
@@ -242,14 +216,7 @@ ul li a:hover{
     font-size: 30px;
     transition: all 0.5s ease;
 }
-.blue-head:hover{
-    background: linear-gradient(to bottom, aliceblue, rgb(20, 187, 190));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      display: inline-block;
-      font-size: 32px;
-      transition: all 0.5s ease;
-}
+
 .location-flex-container{
     display: flex;
     gap:30px;
@@ -268,9 +235,7 @@ ul li a:hover{
     transition: box-shadow 0.3s ease;
     text-align: center;
 }
-.rhs-location:hover{
-    box-shadow: 0 0 20px 6px rgba(127, 255, 212, 0.754);
-}
+
 .location-rhs-head h1{
     color: rgba(127, 255, 212, 0.667);
 }
@@ -298,12 +263,7 @@ ul li a:hover{
     border-radius: 12px;
     transition: all 0.3s ease;
 }
-.location-rhs-btn a:hover{
-    background: rgba(127, 255, 212, 0.753);
-    padding: 15px;
-    font-size: 1.1em;
-    transition: all 0.3s ease;
-}
+
 .contact-bg-container{
     margin-top: 100px;
     background-color: rgba(128, 128, 128, 0.319);
@@ -334,4 +294,105 @@ ul li a:hover{
 }
 .loc-nav-ul{
     border-bottom: 1px solid rgba(127, 255, 212, 0.753);
+}
+
+
+
+/*hover*/
+ul li a:hover{
+    color: rgb(231, 191, 47);
+}
+.location-rhs-btn a:hover{
+    background: rgba(127, 255, 212, 0.753);
+    padding: 15px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+.rhs-location:hover{
+    box-shadow: 0 0 20px 6px rgba(127, 255, 212, 0.754);
+}
+.blue-head:hover{
+    background: linear-gradient(to bottom, aliceblue, rgb(20, 187, 190));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      font-size: 32px;
+      transition: all 0.5s ease;
+}
+.adventure:hover{
+    color: rgb(231, 191, 47);
+    transition: all 0.5s ease;
+    font-size: 35px;
+}
+.card:hover{
+    height:675px;
+    width: 400px;
+}
+.card-btn a:hover{
+    margin-top: 10px;
+    transition: a 0.5s ease;
+    padding: 20px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    background-color: rgb(169, 204, 98);
+}
+.hero-info-btn a:hover{
+    background-color: aliceblue;
+    color: #000;
+}
+.big-header:hover{
+    color: rgb(144, 117, 19);
+    transition: color 0.5s ease;
+
+}
+
+/*responsive*/
+@media (max-width:790px){
+    body{
+        max-width: 700px;
+    }
+    .nav-flex{
+        flex-direction: column;
+    }
+    .big-header{
+        font-size: 30px;
+    }
+    .nav-elements ul{
+        gap: 5px;
+    }
+    .nav-elements ul li a{
+        font-size: 20px;
+    }
+    .hero-info{
+        margin-top:150px;
+        margin-left: 10px;
+    }
+    .hero-info-text{
+        margin: 50px 0;
+    }
+    .hero-info-head{
+        font-size: 50px
+    }
+    .adv-hero-head{
+        padding-left: 10px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card:hover{
+        height: inherit;
+        width:inherit
+    }
+    .card-btn a:hover{
+        margin-top: inherit;
+        transition: none;
+        padding: inherit;
+        font-size: inherit;
+        transition: none;
+        background-color: inherit
+    }
+    .location-flex-container{
+        flex-direction: column;
+        margin: 20px 15px;
+    }
 }
